@@ -4,7 +4,7 @@ const PORT = 8080;
 
 // Simple GET endpoint
 app.get('/', (req, res) => {
-  res.send('Hello from Express server on port 8080, Azure edition!');
+  res.send('Hello from Express server on port 8080!');
 });
 
 // Listen method for startup
